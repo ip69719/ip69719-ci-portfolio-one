@@ -1,8 +1,15 @@
 /* -------------------------- Global style */
 
+/*google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&family=Open+Sans&display=swap');
+
 /*Remove default margin, padding and border*/
 * {
     margin:0;
     padding:0;
     border:0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
 }
