@@ -8,7 +8,31 @@
     <title>Little Achievers therapy services</title>
 </head>
 <body>
-    <header>Header Content</header>
+    <header>
+        <!-- Responsive Navigation based on Malia Havlicek's codepen: https://codepen.io/maliahavlicek/pen/LYeBwNY -->
+        <!-- navigation bar -->
+        <nav id="nav">
+            <!-- hidden checkbox is used as click reciever, so you can use the :checked selector on it. -->
+            <input type="checkbox" name="menuToggle" id="menuToggle">
+            <label for="menuToggle">
+                <span class="toggle">
+                <a class="show-mobile " href="#index.html">
+                    <h1 id="logo-txt-lg">Little Achievers <span id="logo-txt-sm">therapy services</span></h1>
+                </a> ☰</span>
+            </label>
+            <!--the menu that will slide in from the left-->
+            <ul id="menu" class="menu nav-item">
+                <li id="logo" class="hide-mobile">
+                    <a href="#index.html">
+                        <h1 id="logo-txt-lg">Little Achievers <span id="logo-txt-sm">therapy services</span></h1>
+                    </a>
+                </li>
+                <li><a href="#index.html">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
     <section>
         <div>Main Image</div>
         <div>Testimonial</div>
