@@ -1,9 +1,9 @@
-/* -------------------------- Global style */
+/* ---------------------------- Global style */
 
-/*google fonts*/
+/* google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Merienda+One&family=Open+Sans&display=swap');
 
-/*Remove default margin, padding and border*/
+/* remove default margin, padding and border */
 * {
     margin:0;
     padding:0;
@@ -12,4 +12,23 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+}
+
+
+/* ---------------------------------- Header */
+
+/* logo styling */
+
+#logo-txt-lg {
+    font-family: 'Merienda One', cursive, sans-serif;
+    color: #f53240;
+    font-size: 150%;
+}
+
+#logo-txt-sm {
+    color:#2e4443;
+    font-family: 'Roboto Flex';
+    letter-spacing: 2px;
+    font-size: 50%;
+    text-transform: uppercase;
 }
