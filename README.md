@@ -55,16 +55,27 @@ The primary Project Goal is to create a marketing website for 'Little Achievers 
 ## Deployment
 
 1. Go to the url of the repository you want to deploy https://github.com/ip69719/ip69719-ci-portfolio-one
+
 2. Click on the Settings icon
+
 <img width="619" alt="image" src="https://user-images.githubusercontent.com/83339812/192121677-8decae02-2a04-4ef3-8bba-33c55e7b4684.png">
+
 3. Click on the Pages link on the left manu bar.
+
 <img width="651" alt="image" src="https://user-images.githubusercontent.com/83339812/192121779-55a8fbd0-2ac0-44ca-b6b0-65898fb344ca.png">
+
 4. Select main from the branch section and click save
+
 <img width="699" alt="image" src="https://user-images.githubusercontent.com/83339812/192121828-e48956d3-c38a-402e-8311-99f2a1ecdd02.png">
+
 5. Return to your repository's main page and look for GitHub Environments and click on GitHub pages next to the green active button
+
 <img width="791" alt="image" src="https://user-images.githubusercontent.com/83339812/192121875-7bc5b5c7-10c8-47af-929b-76bf93bb3533.png">
+
 6. Click on View Deployment on the right hand side
+
 <img width="788" alt="image" src="https://user-images.githubusercontent.com/83339812/192121930-d9feafd2-800b-4d68-bd8b-221e61baeaa9.png">
+
 7.the resulting page that comes up is your website
 https://ip69719.github.io/ip69719-ci-portfolio-one/
 
