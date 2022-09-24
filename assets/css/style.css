@@ -101,6 +101,7 @@ input[type=submit] {
     font-size: 1em;
     font-family: 'Open Sans', sans-serif;
     margin-left: 71%;
+    margin-bottom: 5%;
     padding: 0.5em;
     width: 25%;
 }
