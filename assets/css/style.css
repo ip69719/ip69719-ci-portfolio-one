@@ -82,6 +82,17 @@ body {
     border-radius: 4px;
 }
 
+input[type=text], input[type=email], textarea {
+    border-radius: 4px;
+    display: block;
+    font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0.5em;
+    width: 90%;
+    margin: 5% auto;
+}
+
+
 /* --------------------------Media Queries */
 
 
