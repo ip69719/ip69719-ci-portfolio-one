@@ -75,6 +75,13 @@ body {
     color: teal;
 }
 
+/*--------- form styling*/
+
+#contact-form {
+    background-color:#63c2b8;
+    border-radius: 4px;
+}
+
 /* --------------------------Media Queries */
 
 
