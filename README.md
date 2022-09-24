@@ -63,3 +63,5 @@ The primary Project Goal is to create a marketing website for 'Little Achievers 
 * Images were sourced from [Shutterstock](https://www.shutterstock.com/home)
 
 ### Code
+
+* Responsive Navigation based on Malia Havlicek's [codepen](https://codepen.io/maliahavlicek/pen/LYeBwNY)
