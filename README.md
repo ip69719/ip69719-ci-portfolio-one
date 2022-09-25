@@ -40,6 +40,8 @@ The primary Project Goal is to create a marketing website for 'Little Achievers 
 
 * [Balsamiq Wireframes](https://balsamiq.com/) was used to create wireframes for the project.
 
+* [TinyPNG](https://tinypng.com/) was used to optimise images for the web.
+
 * [Git](https://git-scm.com/) was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 
 * [GitHub](https://github.com/) is used to store the projects code after being pushed from Git.
