@@ -12,8 +12,12 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+    font-size: 100%;
 }
 
+h2 {
+    text-align: center;
+}
 
 /* ---------------------------------- Header */
 
@@ -111,7 +115,7 @@ input[type=submit] {
 
 
 @media screen and (min-width: 768px) {
-    .contact {
+    .contact, .service-card {
       flex: 1;
     }
   }
