@@ -63,6 +63,21 @@ h2 {
     color: #F9BE02;
 }
 
+/*
+Learned how to target a css class inside another css class from this Stack Overflow post
+https://stackoverflow.com/questions/8965063/target-a-css-class-inside-another-css-class
+*/
+
+
+.service-card:hover > .card-name {
+    background-color: #F9BE02;
+}
+
+.service-card:hover > .card-name i {
+    color: teal;
+}
+
+
 /* ------------------------- Contact section */
 
 /*contact information*/
