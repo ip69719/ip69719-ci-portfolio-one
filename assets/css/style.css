@@ -51,6 +51,17 @@ h2 {
     text-align: center;
 }
 
+.card-name {
+    background-color: teal;
+    color: white;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-radius: 4px;
+}
+
+.card-name i {
+    color: #F9BE02;
+}
 
 /* ------------------------- Contact section */
 
@@ -60,7 +71,8 @@ h2 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    /*justify-content: space-evenly;*/
+    justify-content: space-around;
 }
 
 .contact {
