@@ -37,6 +37,21 @@ h2 {
     text-transform: uppercase;
 }
 
+
+/* ---------------------------------- Main */
+
+/* Services section */
+
+.service-card {
+    border: 1px solid #F9BE02;
+    border-radius: 4px;
+    flex-basis: 100%;
+    margin: 32px 32px 48px;
+    padding: 16px;
+    text-align: center;
+}
+
+
 /* ------------------------- Contact section */
 
 /*contact information*/
