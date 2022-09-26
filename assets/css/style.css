@@ -51,6 +51,10 @@ h2 {
     text-align: center;
 }
 
+.service-card p {
+    margin-top: 16px;
+}
+
 .card-name {
     background-color: teal;
     color: white;
@@ -61,6 +65,11 @@ h2 {
 
 .card-name i {
     color: #F9BE02;
+}
+
+.service-card > .card-name,
+.service-card > .card-name i {
+    padding: 8px 0px;
 }
 
 /*
