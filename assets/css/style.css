@@ -95,8 +95,7 @@ https://stackoverflow.com/questions/8965063/target-a-css-class-inside-another-cs
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    /*justify-content: space-evenly;*/
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .contact {
