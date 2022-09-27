@@ -72,7 +72,8 @@ nav {
 }
   
 .nav-item {
-    background-color: #63c2b8;
+    /* learned about CSS Gradients from this tutorial https://www.w3schools.com/css/css3_gradients.asp */
+    background-image: linear-gradient(to right, #7CD5DB, teal);
     text-transform: uppercase;
     letter-spacing: 2px;
 }
