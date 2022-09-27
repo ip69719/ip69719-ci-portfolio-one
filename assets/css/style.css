@@ -44,6 +44,51 @@ a {
 }
 
 
+/* -------------------------------- Navbar */
+
+/*Responsive Navigation based on Malia Havlicek's codepen: https://codepen.io/maliahavlicek/pen/LYeBwNY*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+nav {
+    max-width: 100%;
+    position: fixed;
+    width: 100%;
+
+}
+
+.menu {
+    height: 100px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+  
+.menu li a {
+    align-self: center;
+}
+  
+.nav-item {
+    background-color: #63c2b8;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+  
+.nav-item li a {
+color: white;
+}
+  
+#menuToggle,
+.show-mobile,
+.toggle {
+    display: none;
+}
+
+
 /* ---------------------------------- Main */
 
 /* Services section */
