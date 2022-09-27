@@ -94,3 +94,4 @@ https://ip69719.github.io/ip69719-ci-portfolio-one/
 
 * Responsive Navigation based on Malia Havlicek's [codepen](https://codepen.io/maliahavlicek/pen/LYeBwNY)
 * Learned how to target a css class inside another css class from this [Stack Overflow](https://stackoverflow.com/questions/8965063/target-a-css-class-inside-another-css-class) post.
+* Learned about CSS Flexible Box Layout model from [Understanding Flexbox: Everything you need to know](https://www.freecodecamp.org/news/understanding-flexbox-everything-you-need-to-know-b4013d4dc9af/) article by Emmanuel Ohans.
