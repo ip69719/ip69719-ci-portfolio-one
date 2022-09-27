@@ -186,6 +186,10 @@ input[type=submit] {
 
 /* -------------------------------- Footer */
 
+.bg-teal-light {
+    background-color: #63c2b8;
+}
+
 .copyright-text {
     font-size: 0.8rem;
     letter-spacing: 2px;
