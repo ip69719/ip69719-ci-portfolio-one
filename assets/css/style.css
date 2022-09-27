@@ -184,6 +184,15 @@ input[type=submit] {
 }
 
 
+/* -------------------------------- Footer */
+
+.copyright-text {
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+    padding-bottom: 32px;
+    text-align: center;
+}
+
 /* --------------------------Media Queries */
 
 
