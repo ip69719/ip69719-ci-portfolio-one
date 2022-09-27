@@ -27,13 +27,13 @@ a {
 
 /* logo styling */
 
-#logo-txt-lg {
+.logo-txt-lg {
     font-family: 'Merienda One', cursive, sans-serif;
     color: #f53240;
     font-size: 150%;
 }
 
-#logo-txt-sm {
+.logo-txt-sm {
     color:#2e4443;
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 2px;
