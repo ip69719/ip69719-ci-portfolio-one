@@ -30,14 +30,14 @@ a {
 .logo-txt-lg {
     font-family: 'Merienda One', cursive, sans-serif;
     color: #f53240;
-    font-size: 150%;
+    font-size: 1.5rem;
 }
 
 .logo-txt-sm {
     color:#2e4443;
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 2px;
-    font-size: 50%;
+    font-size: 1rem;
     text-transform: uppercase;
 }
 
