@@ -86,6 +86,8 @@ https://ip69719.github.io/ip69719-ci-portfolio-one/
 
 ### Content
 
+* The page content was written based on information contained on [OT for kids](https://www.otforkids.co.uk/index.php) and  [Little Achievers Occupational Therapy](https://www.littleachievers.com.au/) websites.
+
 ### Media
 
 * Images were sourced from [Shutterstock](https://www.shutterstock.com/home)
