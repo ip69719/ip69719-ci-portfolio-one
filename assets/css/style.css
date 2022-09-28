@@ -99,7 +99,6 @@ color: white;
 /* home */
 
 .flex-item-home {
-    border: 1px solid #F9BE02;
     flex-basis: 100%;
     text-align: center;
 }
