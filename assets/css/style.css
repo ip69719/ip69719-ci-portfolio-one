@@ -15,7 +15,12 @@ body {
     font-size: 100%;
 }
 
+section {
+    padding-top: 100px;
+}
+
 h2 {
+    padding: 16px 0px;
     text-align: center;
 }
 
@@ -185,7 +190,7 @@ color: white;
 }
 
 #home {
-    margin-top: 100px;
+    margin-top: 16px;
 }
 
 /* Services section */
