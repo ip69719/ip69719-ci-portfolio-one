@@ -93,6 +93,73 @@ color: white;
     display: none;
 }
 
+/*Responsive Navigation based on Malia Havlicek's codepen: https://codepen.io/maliahavlicek/pen/LYeBwNY*/
+
+/* phones and portrait tablets */
+@media screen and (max-width: 768px) {
+
+    a.show-mobile {
+        text-decoration: none;
+        color: #595959;
+        display: inline-block;
+    }
+    
+    #logo.hide-mobile {
+        display: none;
+    }
+    
+    .toggle {
+        color: #595959;
+        padding: 0 1.2rem;
+        display: flex;
+        justify-content: space-between;
+        width: calc(100% - 2.4rem);
+        text-align: left;
+        line-height: 40px;
+        cursor: pointer;
+        height: 40px;
+        font-size: 18px;
+        color: #595959;
+        background: #dbdbdb;
+        transition: all .1s linear;
+    }
+
+    #menuToggle:checked ~ul.nav-item li {
+        opacity: 1;
+        visibility: visible;
+        transition: all .7s linear;
+    }
+    #menuToggle:checked ~ul.nav-item {
+        height: 200px;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 0px;
+        transition: height .3s linear;
+    }
+
+    .menu li {
+        display: flex;
+        /* magic */
+        align-self: center;
+        width: 100%;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .menu li a {
+        width: 100%;
+        text-align: left;
+        align-self: center;
+        align-content: center;
+        margin-left: 1.2rem;
+    }
+}
+
 
 /* ---------------------------------- Main */
 
