@@ -54,8 +54,8 @@ html {
 nav {
     max-width: 100%;
     position: fixed;
+    top: 0;
     width: 100%;
-
 }
 
 .menu {
@@ -108,6 +108,10 @@ color: white;
     width: 100%;
     height: 100%;
  }
+
+#home {
+    margin-top: 100px;
+}
 
 /* Services section */
 
