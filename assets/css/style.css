@@ -96,6 +96,19 @@ color: white;
 
 /* ---------------------------------- Main */
 
+/* home */
+
+.flex-item-home {
+    border: 1px solid #F9BE02;
+    flex-basis: 100%;
+    text-align: center;
+}
+
+.flex-item-home img {
+    width: 100%;
+    height: 100%;
+ }
+
 /* Services section */
 
 .service-card {
@@ -273,7 +286,7 @@ ul li {
 
 
 @media screen and (min-width: 768px) {
-    .contact, .service-card {
+    .contact, .service-card, .flex-item-home {
       flex: 1;
     }
   }
