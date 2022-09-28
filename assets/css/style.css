@@ -373,16 +373,25 @@ ul li {
     .contact, .service-card, .flex-item-home {
       flex: 1;
     }
-  }
-/*
-  @media screen and (min-width: 768px) {
-    .hide {
-display: none;
+}
+
+
+/* Reduce the number of images displayed */
+
+  @media screen and (max-width: 1250px) {
+    .gallery >:nth-last-child(1) {
+        display: none;
     }
-  }
+}
 
+@media screen and (max-width: 920px) {
+    .gallery >:nth-last-child(2) {
+        display: none;
+    }
+}
 
-  .hide {
-    display: none;
-  }
-  */
+@media screen and (max-width: 615px) {
+    .gallery >:nth-last-child(4) {
+        display: none;
+    }
+}
