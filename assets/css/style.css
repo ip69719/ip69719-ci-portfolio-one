@@ -319,6 +319,24 @@ input[type=text], input[type=email], textarea {
     margin: 5% auto;
 }
 
+/* 
+below code for fieldset and .input-wrapper was written by my Mentor
+to resolve the issue with the positioning of the submit button on the 
+contact form
+ */
+ 
+fieldset {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-wrapper {
+    display: flex;
+    align-items: flex-end;
+    align-self: flex-end;
+    margin: 2rem 1.5rem;
+}
+
 input[type=submit] {
     color: white;
     background-color:#f53240;
@@ -326,10 +344,9 @@ input[type=submit] {
     border-radius: 4px;
     font-size: 1em;
     font-family: 'Open Sans', sans-serif;
-    margin-left: 71%;
-    margin-bottom: 5%;
     padding: 0.5em;
-    width: 25%;
+    width: auto;
+    margin: 0.2rem auto;
 }
 
 
