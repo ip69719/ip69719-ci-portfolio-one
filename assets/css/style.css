@@ -109,6 +109,15 @@ color: white;
     height: 100%;
  }
 
+.flex-item-home > h1, p {
+    padding: 8px;
+    align-self: center;
+}
+
+.flex-item-home {
+    align-self: center;
+}
+
 #home {
     margin-top: 100px;
 }
