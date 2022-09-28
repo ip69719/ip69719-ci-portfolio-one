@@ -100,3 +100,7 @@ https://ip69719.github.io/ip69719-ci-portfolio-one/
 * Learned about CSS Gradients from this [W3 schools](https://www.w3schools.com/css/css3_gradients.asp) tutorial.
 * Learned how to create a "fixed" menu with CSS from this [W3 schools](https://www.w3schools.com/howto/howto_css_fixed_menu.asp#gsc.tab=0) tutorial.
 * Learned how to use :nth-child selector from this [CSS-Tricks](https://css-tricks.com/almanac/selectors/n/nth-child/) article.
+
+### Acknowledgements
+
+* Special thanks to my Mentor [Malia Havlicek](https://github.com/maliahavlicek) for support and guidance during this project.
