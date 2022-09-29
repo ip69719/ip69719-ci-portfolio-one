@@ -388,8 +388,8 @@ input[type=submit] {
 
 /* -------------------------------- Footer */
 
-.bg-teal-light {
-    background-color: #63c2b8;
+.bg-green-darker {
+    background-color: #06514E;
 }
 
 .social-links {
@@ -404,7 +404,7 @@ input[type=submit] {
 }
 
 .social-links i {
-    color: white;
+    color: #FDE9A5;
     font-size:2.5rem;
 }
 
@@ -413,6 +413,7 @@ ul li {
 }
 
 .copyright-text {
+    color: #FFFFFF;
     font-size: 0.8rem;
     letter-spacing: 2px;
     padding-bottom: 32px;
