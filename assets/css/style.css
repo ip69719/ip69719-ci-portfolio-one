@@ -310,10 +310,9 @@ https://stackoverflow.com/questions/8965063/target-a-css-class-inside-another-cs
 
 .flex-item-contact {
     border: 1px solid red;
-    margin-right: 5%;
-    margin-left: 5%;
-    padding: 2.5%;
-    /*width: 50%;*/
+    margin-right: 32px;
+    margin-left: 32px;
+    padding: 16px;
 }
 
 .flex-item-contact > h3 {
