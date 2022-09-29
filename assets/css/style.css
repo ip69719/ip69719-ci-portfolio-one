@@ -178,6 +178,15 @@ main section {
     margin: 0 auto;
 }
 
+/* flex container used in most sections of the page */
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
 /* home */
 
 .flex-item-home {
@@ -298,13 +307,6 @@ https://stackoverflow.com/questions/8965063/target-a-css-class-inside-another-cs
 /* ------------------------- Contact section */
 
 /*contact information*/
-
-.flex-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
 
 .flex-item-contact {
     border: 1px solid red;
