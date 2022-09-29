@@ -55,7 +55,7 @@ a {
 
 /* -------------------------------- Navbar */
 
-/*Responsive Navigation based on Malia Havlicek's codepen: https://codepen.io/maliahavlicek/pen/LYeBwNY*/
+/* Responsive Navigation based on Malia Havlicek's codepen: https://codepen.io/maliahavlicek/pen/LYeBwNY */
 
 html {
     scroll-behavior: smooth;
@@ -190,10 +190,8 @@ p {
     padding: 8px 0px;
 }
 
-/*
-Learned how to target a css class inside another css class from this Stack Overflow post
-https://stackoverflow.com/questions/8965063/target-a-css-class-inside-another-css-class
-*/
+/* Learned how to target a css class inside another css class from this Stack Overflow post
+https://stackoverflow.com/questions/8965063/target-a-css-class-inside-another-css-class */
 
 .service-card:hover {
     background-color: #365D6A;
@@ -234,7 +232,7 @@ https://stackoverflow.com/questions/8965063/target-a-css-class-inside-another-cs
 
 /* ------------------------- Contact section */
 
-/*contact information*/
+/* contact information */
 
 .flex-item-contact {
     border: 1px solid red;
@@ -267,7 +265,7 @@ https://stackoverflow.com/questions/8965063/target-a-css-class-inside-another-cs
     color: teal;
 }
 
-/*--------- form styling*/
+/* --------- form styling */
 
 #contact-form {
     background-color: #FDE9A5;
@@ -286,11 +284,9 @@ textarea {
     margin: 5% auto;
 }
 
-/* 
-below code for fieldset and .input-wrapper was written by my Mentor
+/* below code for fieldset and .input-wrapper was written by my Mentor
 to resolve the issue with the positioning of the submit button on the 
-contact form
- */
+contact form */
 
 fieldset {
     display: flex;
@@ -352,7 +348,7 @@ ul li {
 }
 
 /* set max width for larger screens so that the sections content does not
-    take up full width. Code written with help of my Mentor*/
+    take up full width. Code written with help of my Mentor */
 
 main section {
     max-width: 1200px;
@@ -360,6 +356,10 @@ main section {
 }
 
 /* --------------------------Media Queries */
+
+/* flex-item can grow to occupy the available space
+   flext-item can shrink to fit the container
+   the width of flex-item is auto calculated */
 
 @media screen and (min-width: 768px) {
 
@@ -370,7 +370,7 @@ main section {
     }
 }
 
-/* Reduce the number of images displayed */
+/* Reduce the number of images in gallery displayed from four to three */
 
 @media screen and (max-width: 1250px) {
     .gallery>:nth-child(1) {
@@ -378,13 +378,15 @@ main section {
     }
 }
 
+/* Reduce the number of images in gallery displayed from three to two */
+
 @media screen and (max-width: 920px) {
     .gallery>:nth-child(2) {
         display: none;
     }
 }
 
-/*Responsive Navigation based on Malia Havlicek's codepen: https://codepen.io/maliahavlicek/pen/LYeBwNY*/
+/* Responsive Navigation based on Malia Havlicek's codepen: https://codepen.io/maliahavlicek/pen/LYeBwNY */
 
 /* phones and portrait tablets */
 @media screen and (max-width: 768px) {
@@ -450,13 +452,15 @@ main section {
     }
 }
 
-/* Remove margins for contact form to take up full width on smaller devices*/
+/* Remove margins for contact form to take up full width on smaller devices */
 @media screen and (max-width: 767px) {
     .flex-item-contact {
         margin-right: 0px;
         margin-left: 0px;
     }
 }
+
+/* Reduce the number of images displayed in gallery from two to one */
 
 @media screen and (max-width: 615px) {
     .gallery>:nth-child(4) {
