@@ -191,6 +191,13 @@ color: #FFFFFF;
     margin-top: 16px;
 }
 
+/* override logo style to improve color contrast for accessibility */
+h1,
+.logo-txt-lg,
+.logo-txt-sm {
+    color: #06514E !important;
+}
+
 /* Services section */
 
 .service-card {
