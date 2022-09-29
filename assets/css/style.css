@@ -34,13 +34,13 @@ a {
 
 .logo-txt-lg {
     font-family: 'Merienda One', cursive, sans-serif;
-    color: #f53240;
+    color: #FDE9A5;
     font-size: 1.5rem;
     text-transform: capitalize;
 }
 
 .logo-txt-sm {
-    color:#2e4443;
+    color:#FDE9A5;
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 2px;
     font-size: 1rem;
@@ -77,18 +77,17 @@ nav {
 }
   
 .nav-item {
-    /* learned about CSS Gradients from this tutorial https://www.w3schools.com/css/css3_gradients.asp */
-    background-image: linear-gradient(to right, #7CD5DB, teal);
+    background-color: #06514E;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
   
 .nav-item li a {
-color: white;
+color: #FFFFFF;
 }
 
 .nav-item li a:hover {
-    color: #F9BE02;
+    color:#FDE9A5;
     font-weight: bolder;
 }
 
@@ -98,6 +97,7 @@ color: white;
     display: none;
 }
 
+
 /*Responsive Navigation based on Malia Havlicek's codepen: https://codepen.io/maliahavlicek/pen/LYeBwNY*/
 
 /* phones and portrait tablets */
@@ -105,7 +105,7 @@ color: white;
 
     a.show-mobile {
         text-decoration: none;
-        color: #595959;
+        color:#06514E;
         display: inline-block;
     }
     
@@ -114,7 +114,7 @@ color: white;
     }
     
     .toggle {
-        color: #595959;
+        color: #FDE9A5;
         padding: 0 1.2rem;
         display: flex;
         justify-content: space-between;
@@ -124,9 +124,7 @@ color: white;
         cursor: pointer;
         height: 40px;
         font-size: 18px;
-        color: #595959;
-        background: #dbdbdb;
-        transition: all .1s linear;
+        background: #06514E;
     }
 
     #menuToggle:checked ~ul.nav-item li {
@@ -338,7 +336,7 @@ fieldset {
 }
 
 input[type=submit] {
-    color: white;
+    color: #065553;;
     background-color:#f53240;
     border: none;
     border-radius: 4px;
