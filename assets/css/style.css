@@ -250,6 +250,10 @@ Learned how to target a css class inside another css class from this Stack Overf
 https://stackoverflow.com/questions/8965063/target-a-css-class-inside-another-css-class
 */
 
+.service-card:hover{
+    background-color: #365D6A;
+    color: #FFFFFF;
+}
 
 .service-card:hover > .card-name {
     background-color: #FDE9A5;
