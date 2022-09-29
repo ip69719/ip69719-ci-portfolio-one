@@ -5,9 +5,9 @@
 
 /* remove default margin, padding and border */
 * {
-    margin:0;
-    padding:0;
-    border:0;
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
 body {
@@ -19,7 +19,8 @@ section {
     padding-top: 100px;
 }
 
-h1, h2 {
+h1,
+h2 {
     color: #06514E;
 }
 
@@ -44,7 +45,7 @@ a {
 }
 
 .logo-txt-sm {
-    color:#FDE9A5;
+    color: #FDE9A5;
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 2px;
     font-size: 1rem;
@@ -75,23 +76,23 @@ nav {
     justify-content: space-evenly;
     align-items: center;
 }
-  
+
 .menu li a {
     align-self: center;
 }
-  
+
 .nav-item {
     background-color: #06514E;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
-  
+
 .nav-item li a {
-color: #FFFFFF;
+    color: #FFFFFF;
 }
 
 .nav-item li a:hover {
-    color:#FDE9A5;
+    color: #FDE9A5;
     font-weight: bolder;
 }
 
@@ -109,14 +110,14 @@ color: #FFFFFF;
 
     a.show-mobile {
         text-decoration: none;
-        color:#06514E;
+        color: #06514E;
         display: inline-block;
     }
-    
+
     #logo.hide-mobile {
         display: none;
     }
-    
+
     .toggle {
         color: #FDE9A5;
         padding: 0 1.2rem;
@@ -131,12 +132,13 @@ color: #FFFFFF;
         background: #06514E;
     }
 
-    #menuToggle:checked ~ul.nav-item li {
+    #menuToggle:checked~ul.nav-item li {
         opacity: 1;
         visibility: visible;
         transition: all .7s linear;
     }
-    #menuToggle:checked ~ul.nav-item {
+
+    #menuToggle:checked~ul.nav-item {
         height: 200px;
     }
 
@@ -197,9 +199,10 @@ main section {
 .flex-item-home img {
     width: 100%;
     height: 100%;
- }
+}
 
-.flex-item-home > h1, p {
+.flex-item-home>h1,
+p {
     padding: 8px;
     align-self: center;
 }
@@ -222,7 +225,7 @@ main section {
 }
 
 .logo-txt-sm-green {
-    color:#06514E;
+    color: #06514E;
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 2px;
     font-size: 1rem;
@@ -246,7 +249,7 @@ main section {
 }
 
 .card-name {
-    background-color:#06514E;
+    background-color: #06514E;
     color: #FFFFFF;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -257,8 +260,8 @@ main section {
     color: #FDE9A5;
 }
 
-.service-card > .card-name,
-.service-card > .card-name i {
+.service-card>.card-name,
+.service-card>.card-name i {
     padding: 8px 0px;
 }
 
@@ -267,16 +270,16 @@ Learned how to target a css class inside another css class from this Stack Overf
 https://stackoverflow.com/questions/8965063/target-a-css-class-inside-another-css-class
 */
 
-.service-card:hover{
+.service-card:hover {
     background-color: #365D6A;
     color: #FFFFFF;
 }
 
-.service-card:hover > .card-name {
+.service-card:hover>.card-name {
     background-color: #FDE9A5;
 }
 
-.service-card:hover > .card-name i {
+.service-card:hover>.card-name i {
     color: #06514E;
 }
 
@@ -288,7 +291,7 @@ https://stackoverflow.com/questions/8965063/target-a-css-class-inside-another-cs
 /*gallery*/
 
 .flex-container-bg {
-    background-color:#C4E9C4;
+    background-color: #C4E9C4;
 }
 
 .gallery-item {
@@ -315,23 +318,23 @@ https://stackoverflow.com/questions/8965063/target-a-css-class-inside-another-cs
     padding: 16px;
 }
 
-.flex-item-contact > h3 {
+.flex-item-contact>h3 {
     margin-bottom: 32px;
     color: #06514E;
 }
 
-.flex-item-contact > p {
+.flex-item-contact>p {
     margin-bottom: 24px;
 }
 
-.contact-details > p {
+.contact-details>p {
     margin-bottom: 16px;
     margin-left: 8px;
 }
 
-.contact > h4 {
+.contact>h4 {
     margin-bottom: 8px;
-    color:#06514E;
+    color: #06514E;
     margin-top: 24px;
 }
 
@@ -342,11 +345,13 @@ https://stackoverflow.com/questions/8965063/target-a-css-class-inside-another-cs
 /*--------- form styling*/
 
 #contact-form {
-    background-color:#FDE9A5;
+    background-color: #FDE9A5;
     border-radius: 4px;
 }
 
-input[type=text], input[type=email], textarea {
+input[type=text],
+input[type=email],
+textarea {
     border-radius: 4px;
     display: block;
     font-size: 1em;
@@ -361,7 +366,7 @@ below code for fieldset and .input-wrapper was written by my Mentor
 to resolve the issue with the positioning of the submit button on the 
 contact form
  */
- 
+
 fieldset {
     display: flex;
     flex-direction: column;
@@ -376,7 +381,7 @@ fieldset {
 
 input[type=submit] {
     color: #FFFFFF;
-    background-color:#06514E;
+    background-color: #06514E;
     border: none;
     border-radius: 4px;
     font-size: 1em;
@@ -406,7 +411,7 @@ input[type=submit] {
 
 .social-links i {
     color: #FDE9A5;
-    font-size:2.5rem;
+    font-size: 2.5rem;
 }
 
 ul li {
@@ -425,28 +430,31 @@ ul li {
 
 
 @media screen and (min-width: 768px) {
-    .flex-item-contact, .service-card, .flex-item-home {
-      flex: 1;
+
+    .flex-item-contact,
+    .service-card,
+    .flex-item-home {
+        flex: 1;
     }
 }
 
 
 /* Reduce the number of images displayed */
 
-  @media screen and (max-width: 1250px) {
-    .gallery >:nth-child(1) {
+@media screen and (max-width: 1250px) {
+    .gallery>:nth-child(1) {
         display: none;
     }
 }
 
 @media screen and (max-width: 920px) {
-    .gallery >:nth-child(2) {
+    .gallery>:nth-child(2) {
         display: none;
     }
 }
 
 @media screen and (max-width: 615px) {
-    .gallery >:nth-child(4) {
+    .gallery>:nth-child(4) {
         display: none;
     }
 }
