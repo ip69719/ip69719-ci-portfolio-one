@@ -172,14 +172,6 @@ nav {
 
 /* ---------------------------------- Main */
 
-/* set max width for larger screens so that the sections content does not
-    take up full width. Code written with help of my Mentor*/
-
-main section {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
 /* flex container used in most sections of the page */
 
 .flex-container {
@@ -426,8 +418,16 @@ ul li {
     text-align: center;
 }
 
+
 /* --------------------------Media Queries */
 
+/* set max width for larger screens so that the sections content does not
+    take up full width. Code written with help of my Mentor*/
+
+main section {
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
 @media screen and (min-width: 768px) {
 
