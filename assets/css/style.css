@@ -305,7 +305,7 @@ https://stackoverflow.com/questions/8965063/target-a-css-class-inside-another-cs
 
 .contact > h4 {
     margin-bottom: 0.5em;
-    color: #f53240;
+    color:#06514E;
     margin-top: 2em;
 }
 
@@ -325,7 +325,7 @@ https://stackoverflow.com/questions/8965063/target-a-css-class-inside-another-cs
 /*--------- form styling*/
 
 #contact-form {
-    background-color:#63c2b8;
+    background-color:#FDE9A5;
     border-radius: 4px;
 }
 
@@ -358,8 +358,8 @@ fieldset {
 }
 
 input[type=submit] {
-    color: #065553;;
-    background-color:#f53240;
+    color: #FDE9A5;
+    background-color:#06514E;
     border: none;
     border-radius: 4px;
     font-size: 1em;
