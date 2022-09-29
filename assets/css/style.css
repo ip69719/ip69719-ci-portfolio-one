@@ -192,11 +192,26 @@ color: #FFFFFF;
 }
 
 /* override logo style to improve color contrast for accessibility */
-h1,
-.logo-txt-lg,
-.logo-txt-sm {
-    color: #06514E !important;
+
+h1, h2 {
+        color: #06514E;
 }
+
+.logo-txt-lg-green {
+    font-family: 'Merienda One', cursive, sans-serif;
+    color: #06514E;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+
+.logo-txt-sm-green {
+    color:#06514E;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 2px;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
 
 /* Services section */
 
