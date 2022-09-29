@@ -450,3 +450,11 @@ ul li {
         display: none;
     }
 }
+
+/* Remove margins for contact form to take up full width on smaller devices*/
+@media screen and (max-width: 767px) {
+    .flex-item-contact {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+}
