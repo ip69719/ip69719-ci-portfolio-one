@@ -21,9 +21,7 @@ The primary Project Goal is to create a marketing website for 'Little Achievers 
 
 ### Wireframes
 
-* [Home Page Wireframe ]()
-* [Mobile Wireframe ]()
-* [Tablet Wireframe ]()
+* [Wireframe ](https://github.com/ip69719/ip69719-ci-portfolio-one/tree/main/assets/docs/wireframes)
 
 ## Features
 
