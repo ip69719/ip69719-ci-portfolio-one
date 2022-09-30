@@ -454,7 +454,7 @@ main section {
     }
 
     /* remove padding for home section */
-    main > #home {
+    main>#home {
         padding-top: 0;
     }
 
