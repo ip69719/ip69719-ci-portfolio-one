@@ -15,6 +15,17 @@ This project was created for an imaginary practice that offers occupational ther
 The primary Project Goal is to create a marketing website for 'Little Achievers therapy services', a private paediatric occupational therapy practice.
 The target audience are parents whose children experience development challenges.
 
+### User Stories
+
+*   User stories
+    * First Time Visitor Goals
+        * As a First Time Visitor, I want to understand the main purpose of the site and learn more about the organisation.
+        * As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
+        * As a First Time Visitor, I want to easily locate organisation's contact details.
+
+    * Returning Visitor Goals
+        * As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have during and outside normal working hours.
+
 ### Design choices
 
 #### Typography
@@ -99,6 +110,8 @@ https://ip69719.github.io/ip69719-ci-portfolio-one/
 ### Content
 
 * The page content was written based on information contained on [OT for kids](https://www.otforkids.co.uk/index.php) and  [Little Achievers Occupational Therapy](https://www.littleachievers.com.au/) websites.
+
+* Content of READ.md was written with reference to [this](https://github.com/maliahavlicek/ci_mentor_insights/blob/main/PORTFOLIO_1_CSS_HTML_ESSENTIALS.md) template compiled by [Malia Havlicek](https://github.com/maliahavlicek). 
 
 ### Media
 
