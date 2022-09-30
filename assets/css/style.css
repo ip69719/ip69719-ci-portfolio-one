@@ -450,6 +450,10 @@ main section {
         align-content: center;
         margin-left: 1.2rem;
     }
+
+    main > #home {
+        padding-top: 0;
+    }
 }
 
 /* Remove margins for contact form to take up full width on smaller devices */
