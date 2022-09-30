@@ -450,7 +450,7 @@ main section {
         align-content: center;
         margin-left: 1.2rem;
     }
-
+    /* remove padding for home section */
     main > #home {
         padding-top: 0;
     }
