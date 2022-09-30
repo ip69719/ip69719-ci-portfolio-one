@@ -8,9 +8,12 @@
 
 This project was created for an imaginary practice that offers occupational therapy services for children.
 
+## UX
+
 ### Project Goals
 
-The primary Project Goal is to create a marketing website for 'Little Achievers therapy services'.
+The primary Project Goal is to create a marketing website for 'Little Achievers therapy services', a private paediatric occupational therapy practice.
+The target audience are parents whose children experience development challenges.
 
 ### Design choices
 
