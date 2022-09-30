@@ -235,7 +235,6 @@ https://stackoverflow.com/questions/8965063/target-a-css-class-inside-another-cs
 /* contact information */
 
 .flex-item-contact {
-    border: 1px solid red;
     margin-right: 32px;
     margin-left: 32px;
     padding: 16px;
