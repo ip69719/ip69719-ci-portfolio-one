@@ -58,6 +58,8 @@ The target audience are parents whose children experience development challenges
 
 ## Testing
 
+### Validation Testing
+
 * The W3C Markup Validator and W3C CSS Validator Services were used to validate the project to ensure there were no syntax errors.
 
     * W3C Markup Validator - [Results](https://github.com/ip69719/ip69719-ci-portfolio-one/blob/main/assets/docs/testing/w3c_markup_validation%20results.pdf)
