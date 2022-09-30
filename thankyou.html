@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Fancybox-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/7e3e16c427.js" crossorigin="anonymous"></script>
+    <title>Little Achievers therapy services</title>
+</head>
+<body>
+    <header>
+        <!-- Responsive Navigation based on Malia Havlicek's codepen: https://codepen.io/maliahavlicek/pen/LYeBwNY -->
+        <!-- navigation bar -->
+        <nav id="nav">
+            <!-- hidden checkbox is used as click reciever, so you can use the :checked selector on it. -->
+            <input type="checkbox" name="menuToggle" id="menuToggle">
+            <label for="menuToggle">
+                <span class="toggle">
+                    <a class="show-mobile" href="#home">
+                        <span class="logo-txt-lg">Little Achievers </span>
+                    </a> ☰
+                </span>
+            </label>
+            <!--the menu that will slide in from the left-->
+            <ul id="menu" class="menu nav-item">
+                <li id="logo" class="hide-mobile">
+                    <a href="#home">
+                        <span class="logo-txt-lg">Little Achievers </span>
+                        <span class="logo-txt-sm">therapy services</span>
+                    </a>
+                </li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="form-confirmation">
+                <h3>Thank you for contacting us.</h3>
+                <p>We have received your enquiry and will respond to you shortly</p>
+            </div>
+        </section>
+    </main>
+    <!-- This is the footer block -->
+    <footer class="bg-green-darker">
+            <!-- social links -->
+            <ul class="social-links">
+                <li>
+                    <a href="https://www.facebook.com/" aria-label="Go to our twitter page (opens in new tab)" target="_blank">
+                        <i class="fa-brands fa-square-facebook"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/" aria-label="Go to our linkedin page (opens in new tab)" target="_blank">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/" aria-label="Go to our instagram page (opens in new tab)" target="_blank">
+                        <i class="fa-brands fa-square-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+            <p class="copyright-text">©Copyright 2022 - Little Achievers therapy services</p>
+    </footer>
+    <!-- End of the footer section -->
+    <!--fancybox script-->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+</body>
+</html>
