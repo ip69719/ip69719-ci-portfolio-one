@@ -77,6 +77,15 @@ The target audience are parents whose children experience development challenges
 
     * W3C CSS Validator - [Results](https://github.com/ip69719/ip69719-ci-portfolio-one/blob/main/assets/docs/testing/w3c_css_validation%20results.pdf)
 
+### Manual Testing
+
+* Navigation links were tested to confirm that User is brought to the relevent section of the webpage when any of the links is clicked.
+* Testing was carried out to confirm that when User clicks on the social media icons in the footer the link to social media account opens in a new tab.
+* Testing was performed on contact form to ensure that User input is validated before the form can be submitted: required fields cannot be empty, email address is in the expected format:
+    * [Name](https://github.com/ip69719/ip69719-ci-portfolio-one/blob/main/assets/docs/testing/name_field.png)
+    * [Email address field](https://github.com/ip69719/ip69719-ci-portfolio-one/blob/main/assets/docs/testing/email_field.png)
+    * [Message field](https://github.com/ip69719/ip69719-ci-portfolio-one/blob/main/assets/docs/testing/message_field.png) 
+
 ## Deployment
 
 1. Go to the url of the repository you want to deploy https://github.com/ip69719/ip69719-ci-portfolio-one
