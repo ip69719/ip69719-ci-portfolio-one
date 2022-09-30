@@ -311,6 +311,9 @@ input[type=submit] {
     margin: 0.2rem auto;
 }
 
+.form-confirmation {
+    text-align: center;
+}
 
 /* -------------------------------- Footer */
 
