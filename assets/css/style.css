@@ -450,17 +450,15 @@ main section {
         align-content: center;
         margin-left: 1.2rem;
     }
+
     /* remove padding for home section */
     main > #home {
         padding-top: 0;
     }
-}
 
-/* Remove margins for contact form to take up full width on smaller devices */
-@media screen and (max-width: 767px) {
+    /* Set width for contact form to take up full width on smaller devices */
     .flex-item-contact {
-        margin-right: 0px;
-        margin-left: 0px;
+        width: 100%;
     }
 }
 
