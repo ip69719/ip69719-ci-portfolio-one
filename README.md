@@ -88,11 +88,17 @@ The target audience are parents whose children experience development challenges
 * **As a First Time Visitor, I want to understand the main purpose of the site and learn more about the organisation.**
 As soon as the page is opened User is presented with a welcome message that states the purpose of the organisation and describes its main services.
 
+    ![](assets/docs/testing/user_stories_testing/user_story_test_one.png)
+
 * **As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.**
 The website has a navbar at the top of the page. When any of the nav links is clicked the User can easily get access to relevant section of the page.
 
+    ![](assets/docs/testing/user_stories_testing/user_story_test_two.png)
+
 * **As a First Time Visitor, I want to easily locate organisation's contact details.**
 There is contact navigation link on the top of the page that brings the User to the contacts section. Here the User can view the full contact details and/or can submit a query to the organisation by filling out the form.
+
+    ![](assets/docs/testing/user_stories_testing/user_story_test_three.png)
 
 ### Defect Tracking
 
