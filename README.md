@@ -42,7 +42,7 @@ The primary Project Goal is to create a marketing website for 'Little Achievers 
 
 * [Google Developer Tools](https://developer.chrome.com/docs/devtools/) was used for testing responsiveness of the website.
 
-* [Balsamiq Wireframes](https://balsamiq.com/) was used to create wireframes for the project.
+* [WebAIM](https://webaim.org/resources/contrastchecker/) was used for checking the colour contrast.
 
 * [TinyPNG](https://tinypng.com/) was used to optimise images for the web.
 
