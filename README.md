@@ -19,17 +19,17 @@ The target audience are parents whose children experience development challenges
 
 #### Typography
 
-    * Merienda One font was used to create an attractive and slightly playful logo for the site.
-    * The Open Sans font is the main font used throughout the whole website because it is simple and makes the page content easily readable. Open Sans was chosen for its legibility across web and mobile interfaces. The font is highly readable in small sizes and also looks great when used for headings.
-    * The space between letters was increased for headings to improve the readability of uppercase text.
+* Merienda One font was used to create an attractive and slightly playful logo for the site.
+* The Open Sans font is the main font used throughout the whole website because it is simple and makes the page content easily readable. Open Sans was chosen for its legibility across web and mobile interfaces. The font is highly readable in small sizes and also looks great when used for headings.
+* The space between letters was increased for headings to improve the readability of uppercase text.
 
 #### Images
 
-    * Images were selected to support the project goal. The aim is to show children having fun during therapy sessions
+* Images were selected to support the project goal. The aim is to show children having fun during therapy sessions
 
 ### Wireframes
 
-* [Wireframe ](https://github.com/ip69719/ip69719-ci-portfolio-one/tree/main/assets/docs/wireframes)
+* [Wireframes ](https://github.com/ip69719/ip69719-ci-portfolio-one/tree/main/assets/docs/wireframes)
 
 ## Features
 
