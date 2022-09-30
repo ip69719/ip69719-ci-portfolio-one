@@ -106,30 +106,31 @@ There is contact navigation link on the top of the page that brings the User to 
 
 ## Deployment
 
-1. Go to the url of the repository you want to deploy https://github.com/ip69719/ip69719-ci-portfolio-one
+The project was deployed to GitHub Pages using the following steps:
 
-2. Click on the Settings icon
+1. Log in to GitHub and locate the repository you want to deploy [GitHub Repository](https://github.com/ip69719/ip69719-ci-portfolio-one).
 
-<img width="619" alt="image" src="https://user-images.githubusercontent.com/83339812/192121677-8decae02-2a04-4ef3-8bba-33c55e7b4684.png">
+1. In the menu located at the top of this section, click on the 'Settings' icon.
 
-3. Click on the Pages link on the left manu bar.
+    ![](assets/docs/deployment/deployment_step_two.png)
 
-<img width="651" alt="image" src="https://user-images.githubusercontent.com/83339812/192121779-55a8fbd0-2ac0-44ca-b6b0-65898fb344ca.png">
+1. Click on the Pages link on the left menu bar.
 
-4. Select main from the branch section and click save
+    ![](assets/docs/deployment/deployment_step_three.png)
 
-<img width="699" alt="image" src="https://user-images.githubusercontent.com/83339812/192121828-e48956d3-c38a-402e-8311-99f2a1ecdd02.png">
+1. Locate the Build and deployment section on the right. Under "Branch", click the dropdown and select "main" Branch and "/root" folder and then save.
 
-5. Return to your repository's main page and look for GitHub Environments and click on GitHub pages next to the green active button
+    ![](assets/docs/deployment/deployment_step_four.png)
 
-<img width="791" alt="image" src="https://user-images.githubusercontent.com/83339812/192121875-7bc5b5c7-10c8-47af-929b-76bf93bb3533.png">
+1. Return to your repository's main page, locate Environments and click on github-pages pages next to the green Active button.
 
-6. Click on View Deployment on the right hand side
+    ![](assets/docs/deployment/deployment_step_five.png)
 
-<img width="788" alt="image" src="https://user-images.githubusercontent.com/83339812/192121930-d9feafd2-800b-4d68-bd8b-221e61baeaa9.png">
+1. Click on View Deployment on the right hand side.
 
-7.the resulting page that comes up is your website
-https://ip69719.github.io/ip69719-ci-portfolio-one/
+    ![](assets/docs/deployment/deployment_step_six.png)
+
+1. The resulting page that comes up is your [website](https://ip69719.github.io/ip69719-ci-portfolio-one/)
 
 
 ## Credits
