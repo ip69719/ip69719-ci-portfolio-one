@@ -86,6 +86,10 @@ The target audience are parents whose children experience development challenges
     * [Email address field](https://github.com/ip69719/ip69719-ci-portfolio-one/blob/main/assets/docs/testing/email_field.png)
     * [Message field](https://github.com/ip69719/ip69719-ci-portfolio-one/blob/main/assets/docs/testing/message_field.png) 
 
+### Defect Tracking
+
+* Issues are tracked on [GitHub](https://github.com/ip69719/ip69719-ci-portfolio-one/issues?q=is%3Aissue+is%3Aopen).
+
 ## Deployment
 
 1. Go to the url of the repository you want to deploy https://github.com/ip69719/ip69719-ci-portfolio-one
