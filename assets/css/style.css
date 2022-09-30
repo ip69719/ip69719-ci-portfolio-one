@@ -296,7 +296,7 @@ fieldset {
     display: flex;
     align-items: flex-end;
     align-self: flex-end;
-    margin: 2rem 1.5rem;
+    margin: 16px 16px 32px;
 }
 
 input[type=submit] {
