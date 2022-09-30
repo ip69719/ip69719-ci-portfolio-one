@@ -23,9 +23,6 @@ The target audience are parents whose children experience development challenges
         * As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
         * As a First Time Visitor, I want to easily locate organisation's contact details.
 
-    * Returning Visitor Goals
-        * As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have during and outside normal working hours.
-
 ### Design choices
 
 #### Typography
@@ -85,6 +82,17 @@ The target audience are parents whose children experience development challenges
     * [Name](https://github.com/ip69719/ip69719-ci-portfolio-one/blob/main/assets/docs/testing/name_field.png)
     * [Email address field](https://github.com/ip69719/ip69719-ci-portfolio-one/blob/main/assets/docs/testing/email_field.png)
     * [Message field](https://github.com/ip69719/ip69719-ci-portfolio-one/blob/main/assets/docs/testing/message_field.png) 
+
+### User Story testing
+
+* **As a First Time Visitor, I want to understand the main purpose of the site and learn more about the organisation.**
+As soon as the page is opened User is presented with a welcome message that states the purpose of the organisation and describes its main services.
+
+* **As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.**
+The website has a navbar at the top of the page. When any of the nav links is clicked the User can easily get access to relevant section of the page.
+
+* **As a First Time Visitor, I want to easily locate organisation's contact details.**
+There is contact navigation link on the top of the page that brings the User to the contacts section. Here the User can view the full contact details and/or can submit a query to the organisation by filling out the form.
 
 ### Defect Tracking
 
